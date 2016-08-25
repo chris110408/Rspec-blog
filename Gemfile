@@ -14,6 +14,7 @@ gem 'stock_quote'
 gem 'bootstrap-will_paginate','0.0.10'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'autoprefixer-rails'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,7 +44,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'web-console', '~> 2.0', group: :development
 
 group :development, :test do
-  gem 'rspec-rails', '3.2.3'
+
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 
@@ -55,6 +56,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'rspec-rails'
 end
 
 group :test do
